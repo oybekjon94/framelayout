@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:stretchColumns="*"
+    android:layout_height="match_parent">
+
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:background="@color/teal_200"
+            android:text="1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/teal_700"
+            android:textSize="30dp"
+            android:text="2"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@android:color/holo_red_dark"
+            android:textSize="30dp"
+            android:text="3 "
+            />
+
+    </TableRow>
+    <TableRow>
+        <TextView android:text="1"
+            android:layout_span="2"
+            android:gravity="center"
+            android:background="@color/purple_200"
+            android:textSize="30dp"
+            />
+
+        <TextView android:text="2"
+            android:gravity="center"
+            android:background="@color/purple_500"
+            android:textSize="30dp"/>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="3"
+            android:gravity="center"
+            android:layout_span="3"
+            android:textSize="30dp"/>
+
+    </TableRow>
+</TableLayout>
